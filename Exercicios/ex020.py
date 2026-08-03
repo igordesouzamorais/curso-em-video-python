@@ -12,6 +12,5 @@ for i in range(1,5):
 random.shuffle(alunos)
 
 print('Ordem de apresentação será: ')
-
 for i in range(4):
     print('{}º aluno: {}'.format(i+1,alunos[i]))
